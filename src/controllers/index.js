@@ -1,7 +1,14 @@
+import { createAirplane } from "./airplane-controller.js";
+import { getAirplanes } from "./airplane-controller.js";
 import { infoHealth } from "./info-controller.js";
 
 const infoController = {
   infoHealth,
 };
 
-export { infoController };
+const AirplaneController = {
+  createAirplane,
+  getAirplanes,
+};
+
+export { infoController, AirplaneController };
