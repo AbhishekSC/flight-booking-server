@@ -2,6 +2,7 @@ import {
   createAirplane,
   getAirplanes,
   getAirplane,
+  destroyAirplane,
 } from "./airplane-controller.js";
 import { infoHealth } from "./info-controller.js";
 
@@ -13,6 +14,7 @@ const AirplaneController = {
   createAirplane,
   getAirplanes,
   getAirplane,
+  destroyAirplane,
 };
 
 export { infoController, AirplaneController };
