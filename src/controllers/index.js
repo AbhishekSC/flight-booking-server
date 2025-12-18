@@ -1,5 +1,8 @@
-import { createAirplane } from "./airplane-controller.js";
-import { getAirplanes } from "./airplane-controller.js";
+import {
+  createAirplane,
+  getAirplanes,
+  getAirplane,
+} from "./airplane-controller.js";
 import { infoHealth } from "./info-controller.js";
 
 const infoController = {
@@ -9,6 +12,7 @@ const infoController = {
 const AirplaneController = {
   createAirplane,
   getAirplanes,
+  getAirplane,
 };
 
 export { infoController, AirplaneController };
