@@ -5,6 +5,12 @@ import {
   destroyAirplane,
 } from "./airplane-service.js";
 
+import { createCity } from "./city-service.js";
+
+const CityService= {
+  createCity,
+}
+
 const AirplaneService = {
   createAirplane,
   getAirplane,
@@ -12,4 +18,4 @@ const AirplaneService = {
   destroyAirplane,
 };
 
-export { AirplaneService };
+export { AirplaneService, CityService };
